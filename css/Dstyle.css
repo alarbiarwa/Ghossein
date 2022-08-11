@@ -1,0 +1,40 @@
+gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400, 1fr));
+  grid-gap: 3.5rem;
+  justify-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* The Picture Frame */
+.gallery-frame {
+  padding: .5rem;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #d9d9d9;
+
+}
+
+/* The Images */
+.gallery-img {
+  max-width: 20%;;
+  height: 12.5em;
+  object-fit: cover;
+  transition: opacity 0.25s ease-in-out;
+  margin: .5000em;
+  padding: 10px 10px 10px 10px;
+  cursor: pointer;
+  border: 1px solid  #f1efea;
+  border-radius: 2em;
+  border-color: #f1efea;
+  border-width: 10px;
+}
+
+.gallery-img:hover{
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1.3);
+
+}

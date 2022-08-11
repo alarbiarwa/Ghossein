@@ -1,0 +1,405 @@
+body {
+  background-image: url(1.png);
+  background-size: cover;
+background-repeat:round;
+  color: #707070;
+}
+
+/*for navgation bar*/
+nav a {
+  float: right;
+  padding: 5em 2em 0;
+  color: #707070;
+  font-size: 1em;
+  text-align: center;
+  text-decoration: none;
+}
+
+.dropdown, .logo {
+  float: right;
+}
+
+/* Dropdown*/
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: #707070;
+  padding: 5em 2em 0;
+  background-color: inherit;
+}
+
+a {
+  color: #749d90;
+}
+
+a:hover, .dropdown:hover .dropbtn {
+  color: #618c75;
+  text-decoration: underline;
+}
+
+/* Dropdown content*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 10em;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
+}
+
+.dropdown-content a {
+  float: none;
+  color: #707070;
+  padding: 1em 1em;
+  text-decoration: none;
+  display: block;
+  text-align: right;
+}
+
+/* Add a grey background color to dropdown and underline links on hover */
+.dropdown-content a:hover {
+  background-color: #DDD;
+  text-decoration: underline;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*sections*/
+.top {
+  text-align: center;
+  padding-top: 10em;
+}
+
+.bottom {
+  padding-top: 30em;
+  padding-bottom: 2em;
+}
+
+/*for text*/
+.heading {
+  text-align: center;
+  padding: 7em 0 0 0;
+  color: #707070;
+}
+
+.underline-heading {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: #749d90;
+}
+
+.top-p {
+  float: right;
+  text-align: center;
+  padding: 4em 4em 0 0;
+  font-size: 1.3em;
+  max-width: 55ch;
+}
+
+.top-p p{
+    color: #525050bd;
+}
+
+.top.top-p {
+  padding-top: 7em;
+}
+
+p{
+    color: #749d90;
+    text-align: center;
+}
+
+h3 {
+  color: darkgrey;
+  margin-bottom: -0.5em;
+}
+
+
+.text {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 1em;
+  margin-bottom: -2em;
+}
+
+/*for forms*/
+.bottom.forms {
+  width: 50%;
+  padding-top: 2em;
+  padding-bottom: 10em;
+  padding-left: 22em;
+  line-height: 2;
+}
+
+input[type=text], input[type=email], input[type=password] {
+  text-align: right;
+  float: right;
+  width: 90%;
+  padding: 0.75em;
+  border: 0.063em solid #749d90;
+  border-radius: 0.75em;
+  direction: rtl;
+}
+
+label {
+  float: right;
+}
+
+fieldset {
+  border-width: 0;
+}
+
+legend {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+input[type=submit] {
+  margin-left: 10em;
+}
+
+textarea {
+  border: 0.063em solid #749d90;
+  border-radius: 0.75em;
+  text-align: right;
+  float: right;
+  font-size: 1.5em;
+}
+
+select {
+  padding: 0.6em;
+  border-radius: 0.2em;
+  float: right;
+  width: 50%;
+  text-align: center;
+  background-image: linear-gradient(180.0deg, #FFFFFF 0.001%, #cfddc8 99.99999999999997%);
+}
+
+.row {
+  padding-right: 2em;
+}
+
+.col-1 {
+  float: right;
+  text-align: right;
+  margin-top: 0.75em;
+  width: 20%;
+}
+
+.col-2 {
+  float: right;
+  text-align: right;
+  margin-top: 0.375em;
+  width: 80%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*styling images*/
+.top img {
+  float: left;
+}
+
+.bottom img {
+  float: right;
+}
+
+/*styling all cards*/
+table {
+  margin: auto;
+}
+
+table td {
+  margin: 2em;
+  padding: 2em;
+}
+
+.card {
+  clear: both;
+  box-shadow: 6px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  max-width: 20em;
+  height: 19em;
+  border:0.001em solid #707070;
+  border-radius: 2em;
+  line-height: 0.7;
+  background-color: white;
+  text-align: center;
+}
+.card.home{
+  max-width: 15em;
+  height: auto;
+  line-height: 1.5;
+}
+.card:hover {
+  box-shadow:
+    1px 2.7px 2.2px rgba(0, 0, 0, 0.041),
+    2.5px 6.6px 5.3px rgba(0, 0, 0, 0.061),
+    4.6px 12.4px 10px rgba(0, 0, 0, 0.074),
+    8.3px 22.1px 17.9px rgba(0, 0, 0, 0.084),
+    15.5px 41.4px 33.4px rgba(0, 0, 0, 0.093),
+    37px 99px 80px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.card img, .card iframe {
+  margin: 1em 0 0 0;
+  height: 10em;
+  border-radius: 2em;
+}
+.card video{
+    margin: 1em 0 0 0;
+}
+.card p{
+  line-height: 1.2;
+}
+.card .bold {
+  background: none;
+  border: none;
+  padding: 2em 1em 0 1em;
+  font-size: 1.2em;
+  font-family: 'Tajawal', sans-serif;
+  color: #708870;
+}
+
+.card .bold:hover {
+  color: #adc2a9;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.details h2 {
+  text-align: center;
+  color: #707070;
+}
+
+.details p {
+  text-align: center;
+  color: #749d90;
+}
+
+.head-card,p a {
+  color: #386332;
+}
+
+.paragrapgh {
+  color: #4c5751;
+}
+
+.head2 {
+  color: darkgray;
+}
+
+/*modal for signin and log in*/
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 60px;
+}
+
+/*modal content*/
+.modal-content {
+  text-align: center;
+  margin: 5% auto 15% auto;
+  width: 30%;
+  border-radius: 2em;
+  border-color: #749d90;
+  line-height: 3;
+  background-color: #ffffff;
+  padding: 1em 2em;
+}
+
+/* The Close Button for modal */
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0)
+  }
+
+  to {
+    -webkit-transform: scale(1)
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0)
+  }
+
+  to {
+    transform: scale(1)
+  }
+}
+
+
+#msg {
+  line-height: 1;
+  font-size: 0.75em;
+  float: right;
+  color: red;
+}
+
+
+/*buttons*/
+.Button {
+  width: 6em;
+  height: 1.5em;
+  font-family: monospace;
+  font-size: 1.5em;
+  text-align: center;
+  color: rgb(122, 122, 122);
+  border-color: #cfddc8;
+  background-image: linear-gradient(180.0deg, #FFFFFF 0.001%, #cfddc8 99.99999999999997%);
+  cursor: pointer;
+  margin-top: 1.5em;
+  margin-left: 1.6em;
+  border-radius: 1em;
+}
+
+.log {
+  margin-top: 2em;
+  margin-left: 10.5em;
+  margin-bottom: 1em;
+}
+
+/*for footer*/
+footer {
+  text-align: center;
+  color: #707070;
+  padding-top: 1em;
+}
